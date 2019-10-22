@@ -1,3 +1,3 @@
 FROM httpd:latest
-ADD . /var/www/html
+COPY index.html  /var/www/html
 
